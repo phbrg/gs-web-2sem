@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+::selection {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+::-webkit-scrollbar {
+  background-color: transparent;
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--green);
+  border-radius: 1000px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #29b04b;
+  cursor: pointer;
+}
+
+:root {
+  --bg: #0c0c0f;
+  --bg2:rgb(21, 21, 26);
+  --text: #fff;
+  --lgray: #acaab3;
+  --gray: #45444c;
+  --dgray: #202024;
+  --green: #3df46b;
+  --shadow: #3df46b66;
+}
+
+* {
+  border: none;
+  box-shadow: none;
+  box-sizing: border-box;
+  margin: 0;
+  transition: all 0.2s ease-in-out;
+  resize: none;
+  outline: none;
+  border: 0;
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, a, li, textarea, input, label, button {
+  font-family: Work Sans;
+  color: var(--text);
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  font-style: normal;
+}
+
+body {
+  background: var(--bg);
+  cursor: default;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+main {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 0 5%;
+}
