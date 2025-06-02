@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import { Toaster } from "sonner"
+import Home from "./pages/Home/Home"
 
 function App() {
   return (
@@ -7,7 +8,7 @@ function App() {
       <Toaster richColors />
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={} />
+          <Route path="/" element={<Home />} />
         </Routes>
       </BrowserRouter>
     </>
