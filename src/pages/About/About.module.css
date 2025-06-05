@@ -4,7 +4,7 @@
   min-height: 100vh;
   gap: 3vh;
   padding: 0;
-  padding-bottom: 3vh;
+  padding-bottom: 5vh;
 
   & .img {
     width: 100vw;
@@ -20,7 +20,7 @@
   & .holder {
     display: flex;
     flex-direction: column;
-    padding: 0 5vw;
+    padding: 1vh 5vw;
     gap: 2vh;
 
     & h1 {
