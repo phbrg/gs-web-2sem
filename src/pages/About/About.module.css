@@ -9,11 +9,12 @@
   & .img {
     width: 100vw;
     height: 30vh;
-    background-image: url('https://media.discordapp.net/attachments/1096009689952690210/1379972221451239554/5551-1024x606.png?ex=68422ec8&is=6840dd48&hm=af3e80aac83a586015c21ffe8e2ef2505e8f68d9ae2515fccf27b9e4f64c3fb2&=&format=webp&quality=lossless');
-    background-size: 50%;
+    background-image: url('https://media.discordapp.net/attachments/1096009689952690210/1380283152916025384/Bueiro-sem-tampa-na-Rua-Professor-Brito-Machado-1.png?ex=6843505c&is=6841fedc&hm=68eccd06a509acabc15271db49429bddda381e0c65cdcabeadf7a3c95370c546&=&format=webp&quality=lossless');
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
-    background-position-y: -170px;
+    background-attachment: fixed;
+    background-position-y: -500px;
   }
 
   & .holder {
@@ -49,8 +50,8 @@
 @media screen and (max-width: 768px) {
   & .About {
     & .img {
-      height: 15vh;
-      background-size: 80%;
+      height: 10vh;
+      background-size: 100%;
       background-position-y: -55px;
     }
 
