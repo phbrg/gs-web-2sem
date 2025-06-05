@@ -1,0 +1,48 @@
+.NotFound {
+  align-items: center;
+  justify-content: center;
+  height: 93vh;
+  width: 100vw;
+  gap: 3vw;
+
+  & img {
+    height: 20vw;
+  }
+
+  & div {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+    & div {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+      & h1 {
+      text-align: center;
+      font-size: 8vw;
+      font-weight: 800;
+      color: var(--blue);
+      }
+      & h2 {
+        font-size: 3vw;
+        font-weight: 600;
+
+        & span {
+          color: var(--blue);
+          font-weight: 700;
+        }
+      }
+    }
+
+    & .button {
+      font-size: 2vw;
+      font-weight: 600;
+      color: #fff;
+      text-align: center;
+      padding: 1.5vh 0;
+      background-color: var(--blue);
+      border-radius: 10000px;
+    }
+  }
+}

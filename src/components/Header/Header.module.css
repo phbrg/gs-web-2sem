@@ -1,0 +1,65 @@
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 7vh;
+  width: 100vw;
+  padding: 0 5vw;
+  background-color: var(--blue);
+
+  & p {
+    font-size: 1.6vw;
+    font-weight: 700;
+    color: #fff;
+  }
+
+  & nav {
+    display: flex;
+
+    & * {
+      font-size: 0.9vw;
+      font-weight: 600;
+      padding: 6.5px 12.9px;
+      border-radius: 5px;
+      color: #fff;
+
+      &:hover {
+        transform: scale(1.04);
+      }
+
+      &:active {
+        transform: scale(1);
+      }
+    }
+
+    & .active {
+      cursor: not-allowed;
+      color: rgba(0, 0, 0, 0.5);
+
+      &:hover {
+        transform: scale(1);
+      }
+    }
+
+    & .login {
+      background-color: #fff;
+      color: #000;
+      font-weight: 600;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Header {
+    & p {
+      font-size: 2vh;
+    }
+
+    & nav {
+      & * {
+        padding:  0.5vh 3vw;
+        font-size: 1.4vh;
+      }
+    }
+  }
+}

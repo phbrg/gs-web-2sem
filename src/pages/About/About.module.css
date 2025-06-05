@@ -1,0 +1,69 @@
+.About {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  gap: 3vh;
+  padding: 0;
+  padding-bottom: 3vh;
+
+  & .img {
+    width: 100vw;
+    height: 30vh;
+    background-image: url('https://media.discordapp.net/attachments/1096009689952690210/1379972221451239554/5551-1024x606.png?ex=68422ec8&is=6840dd48&hm=af3e80aac83a586015c21ffe8e2ef2505e8f68d9ae2515fccf27b9e4f64c3fb2&=&format=webp&quality=lossless');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: -170px;
+  }
+
+  & .holder {
+    display: flex;
+    flex-direction: column;
+    padding: 0 5vw;
+    gap: 2vh;
+
+    & h1 {
+      font-size: 2vw;
+      font-weight: 800;
+      color: var(--blue);
+    }
+
+    & h2 {
+      font-size: 1.5vw;
+      font-weight: 700;
+      padding-left: 0.3vw;
+    }
+
+    & p, li {
+      font-size: 1vw;
+      font-weight: 400;
+      padding-left: 0.3vw;
+    }
+
+    & span {
+      font-weight: 700;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  & .About {
+    & .img {
+      height: 15vh;
+      background-size: 80%;
+      background-position-y: -55px;
+    }
+
+    & .holder {
+      & h1 {
+        font-size: 3vh;
+      }
+      & h2 {
+        font-size: 1.5vh;
+      }
+      & p, li {
+        font-size: 1.1vh;
+      }
+  }
+  }
+}
