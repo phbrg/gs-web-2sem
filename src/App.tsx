@@ -10,6 +10,7 @@ import { Footer } from "./components/Footer/Footer"
 import { Register } from "./pages/Register/Register"
 import { NotFound } from "./pages/NotFound/NotFound"
 import { Report } from "./pages/Report/Report"
+import { PostReport } from "./pages/PostReport/PostReport"
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/report" element={<Report />} />
+          <Route path="/postreport" element={<PostReport />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />

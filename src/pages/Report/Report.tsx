@@ -4,7 +4,7 @@ import s from './Report.module.css'
 export const Report = () => {
   return (
     <main className={s.Report}>
-      <form onSubmit={(e) => e.preventDefault()}>
+      <form onSubmit={(e) => (e.preventDefault(), window.location.href='/postreport')}>
         <header>
           <h1>Registrar um chamado</h1>
           <h2>Preencha as informações abaixo para localizarmos o bueiro</h2>
