@@ -50,7 +50,7 @@
   .PostReport {
     height: 86vh;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: column-reverse;
 
     & img {
       height: 25vh;
