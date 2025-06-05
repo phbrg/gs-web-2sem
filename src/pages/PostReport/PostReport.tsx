@@ -1,3 +1,5 @@
+import img from '../../assets/images/cellphone.png'
+
 import { NavLink } from 'react-router-dom'
 import { toast } from 'sonner'
 
@@ -8,6 +10,7 @@ export const PostReport = () => {
   
   return (
     <main className={s.PostReport}>
+      <img src={img} alt="" />
       <div>
         <div>
           <h1>Seu chamado foi registrado com sucesso!</h1>
