@@ -14,15 +14,15 @@ export const Register = () => {
         <div>
           <label htmlFor='name'>
             Nome:
-            <input name='name' type='text' placeholder='Digite seu Nome...' />
+            <input required name='name' type='text' placeholder='Digite seu Nome...' />
           </label>
           <label htmlFor='email'>
             Email:
-            <input name='email' type='email' placeholder='Digite seu Email...' />
+            <input required name='email' type='email' placeholder='Digite seu Email...' />
           </label>
           <label htmlFor='password'>
             Senha:
-            <input name='password' type='password' placeholder='Digite sua Senha...' />
+            <input required name='password' type='password' placeholder='Digite sua Senha...' />
           </label>
         </div>
         <div>

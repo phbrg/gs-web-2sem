@@ -14,11 +14,11 @@ export const Login = () => {
         <div>
           <label htmlFor='email'>
             Email:
-            <input name='email' type='email' placeholder='Digite seu Email...' />
+            <input required name='email' type='email' placeholder='Digite seu Email...' />
           </label>
           <label htmlFor='password'>
             Senha:
-            <input name='password' type='password' placeholder='Digite sua Senha...' />
+            <input required name='password' type='password' placeholder='Digite sua Senha...' />
           </label>
         </div>
         <div>

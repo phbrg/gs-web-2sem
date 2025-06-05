@@ -1,17 +1,20 @@
 import { NavLink } from 'react-router-dom'
+import { toast } from 'sonner'
 
 import s from './PostReport.module.css'
 
 export const PostReport = () => {
+  toast.success('Chamado Registrado com sucesso!\nMuito obrigado pela colaboração');
+  
   return (
     <main className={s.PostReport}>
       <div>
         <div>
           <h1>Seu chamado foi registrado com sucesso!</h1>
-          <h2>Agradecemos por colaborar ainda mais com a sociedade</h2>
-          <p>Em breve os profissionais da prefeitura irão arrumar o bueiro</p>
+          <p>Agradecemos por colaborar ainda mais com a sociedade</p>
+          <h2>Em breve os profissionais da prefeitura irão arrumar o bueiro</h2>
         </div>
-        <NavLink to='/'>Retornar a Home</NavLink>
+        <NavLink className={s.button} to='/'>Retornar a Home</NavLink>
       </div>
     </main>
   )
