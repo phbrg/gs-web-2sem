@@ -145,6 +145,7 @@ form {
 
     & header {
       & h1 {
+        text-align: center;
         font-size: 4vh;
       }
       & h2 {
@@ -157,7 +158,7 @@ form {
       & label {
         font-size: 2vh;
 
-        & input {
+        & input, textarea {
           font-size: 2vh;
           padding: 1vh;
           border-radius: 7px;
