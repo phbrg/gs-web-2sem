@@ -1,54 +1,16 @@
-# React + TypeScript + Vite
+# Mapeia
+## Global Solution - Web Development
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Mapeia é uma plataforma digital colaborativa desenvolvida para ajudar no combate às enchentes em São Paulo. O sistema permite que cidadãos reportem pontos de alagamento, bueiros entupidos e outros riscos urbanos com localização geográfica e imagens. As informações são enviadas em tempo real para um painel administrativo usado por gestores públicos, permitindo respostas rápidas e baseadas em dados. A solução integra tecnologias como React, Node-RED, Arduino e Python, combinando participação cidadã com automação para tornar as cidades mais seguras e resilientes.
 
-Currently, two official plugins are available:
+## Links do projeto
+[Deploy](https://gs-web-2sem.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Github](https://github.com/phbrg/gs-web-2sem)
 
-## Expanding the ESLint configuration
+## Integrantes
+- Pedro Henrique Batista Bergamin, 559443
+- Ícaro de Oliveira Santos, 559950
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## Observacoes:
+O Projeto foi adaptado conforme a pedida do professor, assim como a pedida do professor foi adaptada para se encaixar nos padroes do projeto. Apesar de nao seguir com a nomeiclatura exatamente como o professor citou no enunciado o projeto contem tudo pedido pelo professor.
